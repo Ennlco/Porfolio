@@ -1,0 +1,267 @@
+@media screen and (max-width: 500px){
+    /* ---- Navigation ---- */
+    .nav_Mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav_Desk{
+        display: none;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+    
+    .splite{
+        width: 20px;
+        height: 0px;
+    }
+
+    .btn_nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+        margin: 10px 0px;
+        transform: rotate(90deg);
+    }
+
+    .click_nav{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .content_nav_mobile{
+        display: none;
+    }
+
+    .line_nav_1, .line_nav_2, .line_nav_3{
+        width: 0px;
+        height: 40px;
+        border: 2px solid white;
+        transform-origin: 3px 40px ;
+        transition: 400ms ease-in-out;
+    }
+
+    .open_select{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    .close_select{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    
+    /* ---- Section Présentation ---- */
+    .content_info_base{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .content_info_plus{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .a_propos{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        padding: 5px;
+        margin-top: 50px;
+        border-radius: 0px;
+    }
+    
+    .a_propos h3{
+        margin-left: 0px;
+    }
+    
+    .splite_text{
+        margin-left: 0px;
+    }
+    
+    .texte_a_propos{
+        text-align: justify;
+        margin-left: 0px;
+        max-width: 400px;
+    }
+    
+    .element_circle{
+        margin-right: 0px;
+    }
+
+    /* ---- Section Réalisations ---- */
+
+    /*---- Modale D'information ----*/
+
+    .modale_Info{
+        width: 90%;
+    }
+
+    .content_modale_info{
+        position: absolute;
+        left: 0;
+        width: 95%;
+        padding: 5px;
+    }
+
+    .fa-xmark{
+        position: none;
+        float: right;
+    }
+
+    .content_modale_info h3{
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .gallery_Modale{
+        width: 400px;
+    }
+
+    .content_modale_info p{
+        width: 90%;
+        text-align: justify;
+    }
+
+    .content_modale_icone{
+        gap: 10px;
+        margin: 30px 0px;
+    }
+
+    .icone_modale{
+        width: 60px;
+        height: 60px;
+    }
+
+    .content_link{
+        width: 70%;
+    }
+
+    /* ---- Section Compétences ---- */
+    .competences{
+        justify-content: center;
+    }
+
+    .competences h1{
+        font-size: 35px;
+        margin: 30px 0px;
+    }
+
+    .content_comp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        padding: 5px;
+        gap: 120px;
+    }
+
+    .front, .back{
+        width: 250px;
+        height: 250px;
+    }
+
+    .content_icone_comp{
+        width: 100%;
+        height: 100%;
+    }
+
+    .comp_html, .comp_css, .comp_javascript, .comp_php, .comp_mysql{
+        width: 80px;
+        height: 80px;
+    }
+
+    .comp_html{
+        top: 23em;
+        left: 18em;
+    }
+    .comp_css{
+        bottom: 29em;
+        left: 6em;
+    }
+    .comp_javascript{
+        bottom: 42em;
+        left: 11em;
+    }
+
+    .comp_php{
+        top: 38em;
+        right: 16em;
+    }
+
+    .comp_mysql{
+        bottom: 16em;
+        right: 4em;
+    }
+
+    .line_connect{
+        top: 37%;
+        left: 208px;
+        width: 0;
+        height: 362px;
+    }
+
+    .pig_pong{
+        top: -5px;
+        left: -3px;
+        width: 0px;
+        height: 30px;
+
+    }
+
+    .titre_comp{
+        display: none;
+    }
+
+    @keyframes connectAnim{
+        from{transform: translateY(-3px);}
+        to{transform: translateY(360px);}
+    }
+
+    /* ---- Section Formation / Experience ---- */
+    .form_Exp h1{
+        font-size: 30px;
+    }
+
+    .content_Form_Exp{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin-bottom: 50px;
+    }
+
+    .line_connect_form, .line_connect_Exp{
+        display: none;
+    }
+
+    .content_element_form, .content_element_exp{
+        margin-left: 0px;
+    }
+
+    /* ---- Section Contact ---- */
+
+    form{
+        width: 90%;
+    }
+
+    label{
+        font-size: 30px;
+    }
+}
