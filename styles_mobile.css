@@ -181,7 +181,7 @@
         height: 100%;
     }
 
-    .comp_html, .comp_css, .comp_javascript, .comp_php, .comp_mysql{
+    .comp_html, .comp_css, .comp_javascript, .comp_php, .comp_mysql, .comp_NodeJs{
         width: 80px;
         height: 80px;
     }

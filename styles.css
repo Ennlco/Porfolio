@@ -7,7 +7,7 @@
 body{
     box-sizing: border-box;
     margin: 0;
-    background-image: url(/Ressource/GettyImages-185288188-59ac2e80685fbe00102b1a4e.jpg);
+    background-image: url(Ressource/GettyImages-185288188-59ac2e80685fbe00102b1a4e.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@ nav a:hover{
     height: 300px;
     border: 1px solid white;
     border-radius: 50%;
-    background-image: url(/Ressource/Photo.jpg);
+    background-image: url(Ressource/Photo.jpg);
     background-size: cover;
     box-shadow: 7px 7px 20px 1px rgba(255, 255, 255, 0.5);
 }
