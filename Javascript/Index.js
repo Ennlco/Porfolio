@@ -51,9 +51,13 @@ function modaleRealisation(){
             fond.style.display = "flex"
             modale.innerHTML = ""
 
+            const divtop = document.createElement("div")
+            divtop.className = "modale_content_title"
+            modale.appendChild(divtop)
+
             const cross = document.createElement("i")
             cross.className = "fa-solid fa-xmark"
-            modale.appendChild(cross)
+            divtop.appendChild(cross)
 
             const h3 = document.createElement("h3")
             h3.innerText = real_list[clickId].titre
@@ -63,15 +67,49 @@ function modaleRealisation(){
             divSep.className = "line_Sep_modale"
             modale.appendChild(divSep)
 
+            const divGallery = document.createElement("div")
+            divGallery.className = "gallery_Modale"
+            modale.appendChild(divGallery)
+
+            const left = document.createElement("i")
+            left.className = "fa-solid fa-angle-left"
+            divGallery.appendChild(left)
+
             const imgGallery = document.createElement("img")
             imgGallery.src = real_list[clickId].img_Fond
             imgGallery.alt = `image ${real_list[clickId].titre}`
-            imgGallery.className = "gallery_Modale"
-            modale.appendChild(imgGallery)
+            imgGallery.className = "image_gallery"
+            divGallery.appendChild(imgGallery)
 
-            const description = document.createElement("p")
-            description.innerText = real_list[clickId].description
-            modale.appendChild(description)
+            const right = document.createElement("i")
+            right.className = "fa-solid fa-angle-right"
+            divGallery.appendChild(right)
+
+            const divDesc = document.createElement("div")
+            divDesc.className = "content_modale_desc"
+            modale.appendChild(divDesc)
+
+            const description1 = document.createElement("p")
+            description1.innerText = real_list[clickId].description
+            description1.className = "description1_modale"
+            divDesc.appendChild(description1)
+
+            const divSepDesc = document.createElement("div")
+            divSepDesc.className = "sep_Description"
+            divDesc.appendChild(divSepDesc)
+
+            const divInfoPlus = document.createElement("div")
+            divInfoPlus.className = "content_modale_info_plus"
+            divDesc.appendChild(divInfoPlus)
+
+            let arrayInfoPlus = real_list[clickId].complement
+
+            arrayInfoPlus.forEach((e) =>{
+                const description2 = document.createElement("p")
+                description2.innerText = e
+                description2.className = "description2_modale"
+                divInfoPlus.appendChild(description2)
+            })
 
             const contentDivIcone = document.createElement("div")
             contentDivIcone.className = "content_modale_icone"
@@ -96,16 +134,18 @@ function modaleRealisation(){
             divLink.appendChild(iconeGit)
 
             const linkGit = document.createElement("a")
-            linkGit.innerText = "Lient GitHub"
+            linkGit.innerText = "Lien GitHub"
             linkGit.href = real_list[clickId].gitHub
             linkGit.className = "link_git"
             divLink.appendChild(linkGit)
-        })
-    }
 
-    fond.addEventListener("click", () =>{
-        fond.style.display = "none"
-    })
+            cross.addEventListener("click", () =>{
+                fond.style.display = "none"
+            })
+        })
+
+        
+    }
 }
 
 function filtres(){

@@ -108,33 +108,23 @@
     /*---- Modale D'information ----*/
 
     .modale_Info{
-        width: 90%;
+        width: 100%;
     }
 
     .content_modale_info{
         position: absolute;
         left: 0;
-        width: 95%;
+        width: 100%;
         padding: 5px;
     }
 
     .fa-xmark{
-        position: none;
-        float: right;
+        font-size: 20px;
+        margin-right: 10px;
     }
 
     .content_modale_info h3{
-        font-size: 25px;
-        font-weight: 500;
-    }
-
-    .gallery_Modale{
-        width: 400px;
-    }
-
-    .content_modale_info p{
-        width: 90%;
-        text-align: justify;
+        font-size: 22px;
     }
 
     .content_modale_icone{
@@ -153,6 +143,7 @@
 
     /* ---- Section Compétences ---- */
     .competences{
+        display: none;
         justify-content: center;
     }
 
