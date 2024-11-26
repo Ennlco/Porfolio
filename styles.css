@@ -840,3 +840,105 @@ footer a{
         width: 40%;
     }
 }
+
+@media screen and (max-width: 1200px){
+    /* ---- Section Réalisations ---- */
+
+    /*---- Modale D'information ----*/
+
+    .image_gallery{
+        width: 60%;
+    }
+
+    /* ---- Section Compétences ---- */
+    
+    .content_comp{
+        display: flex;
+        justify-content: space-between;
+        width: 50em;
+        height: 20em;
+        margin-top: 50px;
+    }
+    
+    .front, .back{
+        width: 20em;
+        height: 20em;
+    }
+    
+    .content_icone_comp{
+        width: 20em;
+        height: 20em;
+    }
+    
+    .comp_html, .comp_css, .comp_javascript, .comp_php, .comp_mysql, .comp_NodeJs{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .comp_html{
+        top: 15em;
+    }
+    .comp_css{
+        top: -51px;
+    }
+    .comp_javascript{
+        top: 15em;
+    }
+    
+    .comp_php{
+        top: 15em;
+    }
+    
+    .comp_mysql{
+        top: -51px;
+    }
+    .comp_NodeJs{
+        top: 15em;
+    }
+    
+    .line_connect{
+        width: 30em;
+    }
+    
+    .titre_comp{
+        width: 43em;
+        margin: 90px 0px;
+    }
+    
+    @keyframes connectAnim{
+        from{transform: translateX(0px);}
+        to{transform: translateX(30em);}
+    }
+
+    /* ---- Section Formation / Experience ---- */
+    .form_Exp h1{
+        font-size: 30px;
+    }
+
+    .content_Form_Exp{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin-bottom: 50px;
+    }
+
+    .line_connect_form, .line_connect_Exp{
+        display: none;
+    }
+
+    .content_element_form, .content_element_exp{
+        margin-left: 0px;
+    }
+
+    /* ---- Section Contact ---- */
+
+    form{
+        width: 60%;
+    }
+
+    label{
+        font-size: 30px;
+    }
+}
