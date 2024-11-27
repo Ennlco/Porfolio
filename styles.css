@@ -443,6 +443,10 @@ nav a:hover{
     text-align: justify;
 }
 
+.content_modale_info_plus{
+    color: #9433cc;
+}
+
 .content_modale_icone{
     display: flex;
     gap: 30px;

@@ -127,6 +127,14 @@
         font-size: 22px;
     }
 
+    .content_modale_desc{
+        width: 100%;
+    }
+
+    .description1_modale, .content_modale_info_plus{
+        text-align: start;
+    }
+
     .content_modale_icone{
         gap: 10px;
         margin: 30px 0px;
