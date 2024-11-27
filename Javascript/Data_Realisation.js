@@ -9,8 +9,8 @@ const real_list = [
             "> Intégration du contenu conformément à la maquette."
         ],
         code_Langage: [
-            "Ressource/Icones/Html.jpg",
-            "Ressource/Icones/Css.jpg"
+            "Ressource/Icones/Html.webp",
+            "Ressource/Icones/Css.webp"
         ],
         categorie: "pro",
         gitHub: "https://github.com/Ennlco/Projet-HTML-et-CSS"
@@ -26,9 +26,9 @@ const real_list = [
             "> Récupérer les données utilisateurs dans le JavaScript via des formulaires.",
         ],
         code_Langage: [
-            "Ressource/Icones/Html.jpg",
-            "Ressource/Icones/Css.jpg",
-            "Ressource/Icones/Javascript.jpg"
+            "Ressource/Icones/Html.webp",
+            "Ressource/Icones/Css.webp",
+            "Ressource/Icones/Javascript.webp"
         ],
         categorie: "pro",
         gitHub: "https://github.com/Ennlco/Creez_une_page_web_dynamique_avec_JavaScript"
@@ -44,9 +44,9 @@ const real_list = [
             "> Développement d'une interface web avec Sass.",
         ],
         code_Langage: [
-            "Ressource/Icones/React.jpg",
-            "Ressource/Icones/Sass.jpg",
-            "Ressource/Icones/Javascript.jpg"
+            "Ressource/Icones/React.webp",
+            "Ressource/Icones/Sass.webp",
+            "Ressource/Icones/Javascript.webp"
         ],
         categorie: "pro",
         gitHub: "https://github.com/Ennlco/Creez-une-application-web-de-location-immobili-re-avec-React"
@@ -62,7 +62,7 @@ const real_list = [
             "> Stockage des données de manière sécurisée.",
         ],
         code_Langage: [
-            "Ressource/Icones/NodeJs.jpg",
+            "Ressource/Icones/NodeJs.webp",
         ],
         categorie: "pro",
         gitHub: "https://github.com/Ennlco/Developpez-le-backend-d-un-site-de-notation-de-livres"
@@ -78,11 +78,11 @@ const real_list = [
             "> Gestion de données.",
         ],
         code_Langage: [
-            "Ressource/Icones/Html.jpg",
-            "Ressource/Icones/Css.jpg",
-            "Ressource/Icones/Javascript.jpg",
-            "Ressource/Icones/Php.jpg",
-            "Ressource/Icones/MySql.jpg"
+            "Ressource/Icones/Html.webp",
+            "Ressource/Icones/Css.webp",
+            "Ressource/Icones/Javascript.webp",
+            "Ressource/Icones/Php.webp",
+            "Ressource/Icones/MySql.webp"
         ],
         categorie: "perso",
         gitHub: "https://github.com/Ennlco/JDR-Star-Wars"

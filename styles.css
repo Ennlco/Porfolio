@@ -7,7 +7,7 @@
 body{
     box-sizing: border-box;
     margin: 0;
-    background-image: url(Ressource/GettyImages-185288188-59ac2e80685fbe00102b1a4e.jpg);
+    background-image: url(Ressource/GettyImages-185288188-59ac2e80685fbe00102b1a4e.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@ nav a:hover{
     height: 300px;
     border: 1px solid white;
     border-radius: 50%;
-    background-image: url(Ressource/Photo.jpg);
+    background-image: url(Ressource/Photo.webp);
     background-size: cover;
     box-shadow: 7px 7px 20px 1px rgba(255, 255, 255, 0.5);
 }
@@ -479,7 +479,7 @@ nav a:hover{
     width: 30px;
     height: 30px;
     border-radius: 20px;
-    background-image: url(Ressource/Icones/GitHub.jpg);
+    background-image: url(Ressource/Icones/GitHub.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -557,29 +557,29 @@ nav a:hover{
 }
 
 .comp_html{
-    background-image: url(Ressource/Icones/Html.jpg);
+    background-image: url(Ressource/Icones/Html.webp);
     top: 17em;
 }
 .comp_css{
-    background-image: url(Ressource/Icones/Css.jpg);
+    background-image: url(Ressource/Icones/Css.webp);
     top: -51px;
 }
 .comp_javascript{
-    background-image: url(Ressource/Icones/Javascript.jpg);
+    background-image: url(Ressource/Icones/Javascript.webp);
     top: 17em;
 }
 
 .comp_php{
-    background-image: url(Ressource/Icones/Php.jpg);
+    background-image: url(Ressource/Icones/Php.webp);
     top: 17em;
 }
 
 .comp_mysql{
-    background-image: url(Ressource/Icones/MySql2.jpg);
+    background-image: url(Ressource/Icones/MySql2.webp);
     top: -51px;
 }
 .comp_NodeJs{
-    background-image: url(Ressource/Icones/NodeJs.jpg);
+    background-image: url(Ressource/Icones/NodeJs.webp);
     top: 17em;
 }
 
@@ -821,13 +821,13 @@ footer a{
 }
 
 .github_img{
-    background-image: url(Ressource/Icones/GitHub.jpg);
+    background-image: url(Ressource/Icones/GitHub.webp);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 .linkedin_img{
-    background-image: url(Ressource/Icones/174857.png);
+    background-image: url(Ressource/Icones/174857.webp);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
