@@ -3,12 +3,10 @@ const real_list = [
         id: "0",
         titre: "Booki - projet Font",
         img_Fond: "Ressource/Img_Realisation/Realisation_Booki.jpg",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus vulputate tellus, vitae faucibus odio elementum at. Sed at mi eget augue lacinia viverra. Duis id ligula vel ipsum semper tempor. Aliquam tincidunt mattis nunc, id semper arcu. Mauris a urna id purus varius auctor at eu nulla. Mauris id aliquam felis, eu posuere ex. Quisque vitae eleifend odio. Sed efficitur mi sit amet nunc posuere fringilla.",
+        description: "Création de l'interface responsive de Booki, en utilisant les maquette Figma pour mobile, tablette et desktop",
         complement: [
-            "> Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "> Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "> Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "> Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "> Implémentation d'une interface responsive avec HTML et CSS.",
+            "> Intégration du contenu conformément à la maquette."
         ],
         code_Langage: [
             "Ressource/Icones/Html.jpg",
@@ -21,12 +19,11 @@ const real_list = [
         id: "1",
         titre: "Sophie Bluel - projet Font",
         img_Fond: "Ressource/Img_Realisation/Realisation_Sophie_Blueli.jpg",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus vulputate tellus, vitae faucibus odio elementum at. Sed at mi eget augue lacinia viverra. Duis id ligula vel ipsum semper tempor. Aliquam tincidunt mattis nunc, id semper arcu. Mauris a urna id purus varius auctor at eu nulla. Mauris id aliquam felis, eu posuere ex. Quisque vitae eleifend odio. Sed efficitur mi sit amet nunc posuere fringilla.",
+        description: "Création d'une page web dynamique pour le site internet d'une architecte d'intérieur en utilisant JavaScript et en communiquant avec une API.",
         complement: [
-            "> Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "> Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "> Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "> Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "> Gérer les événements utilisateurs avec JavaScript.",
+            "> Manipuler les éléments du DOM avec JavaScript.",
+            "> Récupérer les données utilisateurs dans le JavaScript via des formulaires.",
         ],
         code_Langage: [
             "Ressource/Icones/Html.jpg",
@@ -40,12 +37,11 @@ const real_list = [
         id: "2",
         titre: "Kasa - projet React",
         img_Fond: "Ressource/Img_Realisation/Realisation_Kasa.jpg",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus vulputate tellus, vitae faucibus odio elementum at. Sed at mi eget augue lacinia viverra. Duis id ligula vel ipsum semper tempor. Aliquam tincidunt mattis nunc, id semper arcu. Mauris a urna id purus varius auctor at eu nulla. Mauris id aliquam felis, eu posuere ex. Quisque vitae eleifend odio. Sed efficitur mi sit amet nunc posuere fringilla.",
+        description: "Implémentation de front-end d’une application en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive.",
         complement: [
-            "> Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "> Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "> Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "> Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "> Initialisation d'une application avec Create React App.",
+            "> Configuration de la navigation entre les pages.",
+            "> Développement d'une interface web avec Sass.",
         ],
         code_Langage: [
             "Ressource/Icones/React.jpg",
@@ -59,12 +55,11 @@ const real_list = [
         id: "3",
         titre: "Vieux Grimoire - projet Back",
         img_Fond: "Ressource/Img_Realisation/Realisation_Mon_Vieux_Grimoire.jpg",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus vulputate tellus, vitae faucibus odio elementum at. Sed at mi eget augue lacinia viverra. Duis id ligula vel ipsum semper tempor. Aliquam tincidunt mattis nunc, id semper arcu. Mauris a urna id purus varius auctor at eu nulla. Mauris id aliquam felis, eu posuere ex. Quisque vitae eleifend odio. Sed efficitur mi sit amet nunc posuere fringilla.",
+        description: "Création d'un serveur avec Express et connection à une base de données MongoDB. Mise en place de la structure du serveur et la gestion de la communication entre le serveur et la base de données.",
         complement: [
-            "> Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "> Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "> Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "> Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "> Implémentation d'un modèle logique de données conformément à la réglementation.",
+            "> Mise en place des opérations CRUD de manière sécurisée.",
+            "> Stockage des données de manière sécurisée.",
         ],
         code_Langage: [
             "Ressource/Icones/NodeJs.jpg",
@@ -76,12 +71,11 @@ const real_list = [
         id: "4",
         titre: "Star Wars - projet Front/Back",
         img_Fond: "Ressource/Img_Realisation/Realisation_Star_Wars.jpg",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus vulputate tellus, vitae faucibus odio elementum at. Sed at mi eget augue lacinia viverra. Duis id ligula vel ipsum semper tempor. Aliquam tincidunt mattis nunc, id semper arcu. Mauris a urna id purus varius auctor at eu nulla. Mauris id aliquam felis, eu posuere ex. Quisque vitae eleifend odio. Sed efficitur mi sit amet nunc posuere fringilla.",
+        description: "Création d'un site pour faire du JDR à distance, avec une création de personnage, un accées aux données du monde et une intération en temps réel l'ors des combat via une interface.",
         complement: [
-            "> Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "> Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "> Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "> Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "> Création et gestion de compte.",
+            "> création du site de A-Z (Front-end / Back-end)",
+            "> Gestion de données.",
         ],
         code_Langage: [
             "Ressource/Icones/Html.jpg",

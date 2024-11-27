@@ -368,7 +368,7 @@ nav a:hover{
     box-sizing: border-box;
     width: 50%;
     padding: 10px;
-    border-radius: 30px;
+    border-radius: 15px;
     background-color: white;
 }
 
@@ -402,7 +402,6 @@ nav a:hover{
     align-items: center;
     width: 100%;
     margin: 30px 0px;
-    
 }
 
 .fa-angle-left, .fa-angle-right{
@@ -427,7 +426,10 @@ nav a:hover{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
+    width: 80%;
+    padding: 10px 0px;
+    border-top: 1px solid rgba(102, 51, 204, 0.5);
+    border-bottom: 1px solid rgba(102, 51, 204, 0.5);
 }
 
 .sep_Description{
