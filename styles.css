@@ -845,6 +845,11 @@ footer a{
     .image_gallery{
         width: 40%;
     }
+
+    /* ---- Section Formation / Experience ---- */
+    .content_Form_Exp{
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 1200px){
@@ -857,7 +862,6 @@ footer a{
     }
 
     /* ---- Section Compétences ---- */
-    
     .content_comp{
         display: flex;
         justify-content: space-between;
