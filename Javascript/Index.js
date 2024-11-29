@@ -16,7 +16,7 @@ function generation(elementReal){
         divInfo.className = "info"
         divBase.appendChild(divInfo)
 
-        const h5 = document.createElement("h5")
+        const h5 = document.createElement("h2")
         h5.innerText = e.titre
         divInfo.appendChild(h5)
 
