@@ -46,6 +46,8 @@ function modaleRealisation(){
     const modale = document.querySelector(".content_modale_info")
 
     for(i = 0; i < selectReal.length; i++){
+        let num = 0
+
         selectReal[i].addEventListener("click", (event) =>{
             let clickId = event.target.id
             fond.style.display = "flex"
@@ -73,10 +75,13 @@ function modaleRealisation(){
 
             const left = document.createElement("i")
             left.className = "fa-solid fa-angle-left"
+            left.id = "precedent"
             divGallery.appendChild(left)
 
+            let arraySlide = real_list[clickId].img_carousel
+
             const imgGallery = document.createElement("img")
-            imgGallery.src = real_list[clickId].img_Fond
+            imgGallery.src = arraySlide[num]
             imgGallery.alt = `image ${real_list[clickId].titre}`
             imgGallery.className = "image_gallery"
             divGallery.appendChild(imgGallery)
@@ -142,6 +147,29 @@ function modaleRealisation(){
             cross.addEventListener("click", () =>{
                 fond.style.display = "none"
             })
+
+            left.addEventListener("click", () =>{
+                num = num - 1
+
+                if (num < 0){
+                    num = arraySlide.length - 1
+                }
+
+                imgGallery.src = arraySlide[num]
+                console.log(num)
+            })
+        
+            right.addEventListener("click", () =>{
+                num = num + 1
+
+                if (num > arraySlide.length - 1){
+                    num = 0
+                }
+                
+                imgGallery.src = arraySlide[num]
+                console.log(num)
+            })
+
         })
 
         

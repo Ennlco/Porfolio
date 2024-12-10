@@ -12,6 +12,10 @@ const real_list = [
             "Ressource/Icones/Html.webp",
             "Ressource/Icones/Css.webp"
         ],
+        img_carousel:[
+            "Ressource/Img_Slide/booki/img_slide_booki_1.jpg",
+            "Ressource/Img_Slide/booki/img_slide_booki_2.jpg"
+        ],
         categorie: "pro",
         gitHub: "https://github.com/Ennlco/Projet-HTML-et-CSS"
     },
@@ -29,6 +33,12 @@ const real_list = [
             "Ressource/Icones/Html.webp",
             "Ressource/Icones/Css.webp",
             "Ressource/Icones/Javascript.webp"
+        ],
+        img_carousel:[
+            "Ressource/Img_Slide/sophie_bluel/img_slide_sb_1.jpg",
+            "Ressource/Img_Slide/sophie_bluel/img_slide_sb_2.jpg",
+            "Ressource/Img_Slide/sophie_bluel/img_slide_sb_3.jpg",
+            "Ressource/Img_Slide/sophie_bluel/img_slide_sb_4.jpg"
         ],
         categorie: "pro",
         gitHub: "https://github.com/Ennlco/Creez_une_page_web_dynamique_avec_JavaScript"
@@ -48,6 +58,11 @@ const real_list = [
             "Ressource/Icones/Sass.webp",
             "Ressource/Icones/Javascript.webp"
         ],
+        img_carousel:[
+            "Ressource/Img_Slide/kasa/img_slide_kasa_1.jpg",
+            "Ressource/Img_Slide/kasa/img_slide_kasa_2.jpg",
+            "Ressource/Img_Slide/kasa/img_slide_kasa_3.jpg"
+        ],
         categorie: "pro",
         gitHub: "https://github.com/Ennlco/Creez-une-application-web-de-location-immobili-re-avec-React"
     },
@@ -63,6 +78,12 @@ const real_list = [
         ],
         code_Langage: [
             "Ressource/Icones/NodeJs.webp",
+        ],
+        img_carousel:[
+            "Ressource/Img_Slide/mon_vieu_grimoire/img_slide_mvg_1.jpg",
+            "Ressource/Img_Slide/mon_vieu_grimoire/img_slide_mvg_2.jpg",
+            "Ressource/Img_Slide/mon_vieu_grimoire/img_slide_mvg_3.jpg",
+            "Ressource/Img_Slide/mon_vieu_grimoire/img_slide_mvg_4.jpg"
         ],
         categorie: "pro",
         gitHub: "https://github.com/Ennlco/Developpez-le-backend-d-un-site-de-notation-de-livres"
@@ -83,6 +104,14 @@ const real_list = [
             "Ressource/Icones/Javascript.webp",
             "Ressource/Icones/Php.webp",
             "Ressource/Icones/MySql.webp"
+        ],
+        img_carousel:[
+            "Ressource/Img_Slide/star_wars/img_slide_st_1.jpg",
+            "Ressource/Img_Slide/star_wars/img_slide_st_2.jpg",
+            "Ressource/Img_Slide/star_wars/img_slide_st_3.jpg",
+            "Ressource/Img_Slide/star_wars/img_slide_st_4.jpg",
+            "Ressource/Img_Slide/star_wars/img_slide_st_5.jpg",
+            "Ressource/Img_Slide/star_wars/img_slide_st_6.jpg"
         ],
         categorie: "perso",
         gitHub: "https://github.com/Ennlco/JDR-Star-Wars"
